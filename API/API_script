@@ -1,0 +1,2 @@
+./google-cloud-sdk/bin/gcloud builds submit --tag gcr.io/bookshare-9a86e/backend && ./google-cloud-sdk/bin/gcloud run deploy --image gcr.io/bookshare-9a86e/backend --platform managed
+firebase deploy
